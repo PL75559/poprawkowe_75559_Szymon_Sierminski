@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskMaster - Szymon Siermiński 75559</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="top-bar">
+        <h1>✓ TaskMaster PRO</h1>
+        <p>Zarządzanie zadaniami | Projekt zaliczeniowy</p>
+    </nav>
+
+    <div class="main-wrapper">
+        <aside class="sidebar">
+            <h2 id="form-heading">Dodaj nowe zadanie</h2>
+            <form id="task-manager-form" novalidate>
+                <input type="hidden" id="edit-id" value="">
+
+                <div class="input-block">
+                    <label for="task-name">Nazwa zadania:</label>
+                    <input type="text" id="task-name" placeholder="np. Sprawdzić rozrząd w 2.0 TSI...">
+                    <small class="error-text" id="err-name"></small>
+                </div>
+
+                <div class="input-block">
+                    <label for="task-category">Kategoria:</label>
+                    <select id="task-category">
+                        <option value="">-- Wybierz --</option>
+                        <option value="Uczelnia">Uczelnia</option>
+                        <option value="Trening">Trening</option>
+                        <option value="Motoryzacja">Motoryzacja</option>
+                        <option value="Prywatne">Prywatne / Związki</option>
+                    </select>
+                    <small class="error-text" id="err-category"></small>
+                </div>
+
+                <div class="input-block">
+                    <label for="task-date">Ostateczny termin (Data):</label>
+                    <input type="date" id="task-date">
+                    <small class="error-text" id="err-date"></small>
+                </div>
+
+                <div class="input-block">
+                    <label>Ważność (Priorytet):</label>
+                    <div class="radio-box">
+                        <label><input type="radio" name="task-priority" value="Krytyczny"> Krytyczny</label>
+                        <label><input type="radio" name="task-priority" value="Normalny" checked> Normalny</label>
+                        <label><input type="radio" name="task-priority" value="Na luzie"> Na luzie</label>
+                    </div>
+                </div>
+
+                <div class="input-block checkbox-wrapper">
+                    <input type="checkbox" id="task-status">
+                    <label for="task-status" class="status-label">Zadanie ukończone?</label>
+                </div>
+
+                <button type="submit" id="btn-save" class="button btn-primary">Zapisz zadanie</button>
+                <button type="button" id="btn-cancel" class="button btn-alt hidden-element">Anuluj edycję</button>
+            </form>
+        </aside>
+
+        <main class="content-area">
+            <div class="content-header">
+                <h2>Aktywne zadania (<span id="task-counter">0</span>)</h2>
+            </div>
+            
+            <div id="notification-area" class="notify-box hidden-element"></div>
+
+            <div id="task-board" class="task-grid">
+                </div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
