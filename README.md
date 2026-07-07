@@ -5,7 +5,7 @@
 ---
 
  Linki do projektu
-* **Wersja Live aplikacji (GitHub Pages)**: [TUTAJ WKLEJ LINK DO HOSTINGU]
+* **Wersja Live aplikacji https://pl75559.github.io/poprawkowe_75559_Szymon_Sierminski/?v=123
 * **Prezentacja Wideo**: [TUTAJ WKLEJ LINK DO FILMU NA YOUTUBE/GOOGLE DRIVE]
 * **Repozytorium GitHub**: [TUTAJ WKLEJ LINK DO TEGO REPOZYTORIUM]
 
