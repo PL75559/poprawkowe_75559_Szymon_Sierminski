@@ -7,7 +7,7 @@
  Linki do projektu
 * **Wersja Live aplikacji https://pl75559.github.io/poprawkowe_75559_Szymon_Sierminski/
 * **Prezentacja Wideo**: [TUTAJ WKLEJ LINK DO FILMU NA YOUTUBE/GOOGLE DRIVE]
-* **Repozytorium GitHub**: [TUTAJ WKLEJ LINK DO TEGO REPOZYTORIUM]
+* **Repozytorium https://github.com/PL75559/poprawkowe_75559_Szymon_Sierminski
 
  Krótki opis aplikacji
 TaskMaster PRO to intuicyjna, w pełni responsywna aplikacja webowa służąca do zarządzania codziennymi obowiązkami i planami (To-Do List). Projekt pozwala na precyzyjne kategoryzowanie zadań, przypisywanie im odpowiednich priorytetów oraz śledzenie postępów poprzez zmianę statusu. Aplikacja została zaprojektowana z wykorzystaniem nowoczesnego, ciemnego interfejsu (Dark Mode) i gwarantuje bezpieczeństwo wprowadzonych informacji, dzięki zapisowi w przeglądarce użytkownika.
